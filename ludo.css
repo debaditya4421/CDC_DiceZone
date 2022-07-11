@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(239, 230, 230);
+}
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading h1{
+    border: 5px solid black;
+    margin: 2px 30vw ;
+    margin-bottom: 55px;
+    padding: 10px 0;
+    font-size: 4vw;
+    color: rgb(38, 48, 108);
+    background-color: rgb(231, 231, 147);
+    font-weight: bold;
+    font-family: 'Gentium Book Plus', serif;;
+}
+.box{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 3px;
+    color: rgb(95, 86, 70);
+    font-weight: bold;
+}
+#lockerA{
+    position: relative;
+    top: -33.3vh;
+    margin-right: 3vw;
+}
+#lockerB{
+    position: relative;
+    top: 33.3vh;
+    margin-left: 3vw;
+}
+#score{
+    color: rgb(40, 16, 64);
+}
+.grid1{
+    display: flex;
+    flex-direction: row;
+}
+#grid2{
+    display: flex;
+    flex-direction: column;
+}
+#grid3{
+    margin-left: 14.1vw;
+    display: flex;
+    flex-direction: column;
+}
+#mid{
+    display: flex;
+}
+#turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 13.5vw;
+    height: 20vh;
+}
+#turn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+.cell{
+    border: 1px solid rgb(0, 0, 0);
+    height: 10vh;
+    width: 6vw;
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: bold;
+}
+.sfsq{
+    background-color: rgb(222, 173, 99);
+}
+#lastrow{
+    margin-top: 0;
+    padding-top: 0;
+}
+#manual{
+    flex-direction: column;
+    border: 3px solid brown;
+    padding: 8px;
+}
+#manual button{
+    font-weight: bold;
+}
+#start{
+    margin-top: 25px;
+}
+#ok{
+    background-color: rgb(242, 232, 252);
+    font-size: 1vw;
+    border-radius: 4px;
+    color: rgb(49, 49, 8);
+    font-weight: bold;
+}
+#ok:hover{
+    color: aliceblue;
+    background-color: rgb(63, 11, 11);
+}
+#btn{
+    font-size: 2vw;
+    border-radius: 7px;
+    padding: 6px;
+}
+#btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(35, 35, 227);
+    font-weight: bold;
+}
+button:hover,#roll:hover{
+    cursor: pointer;
+}
+#reset{
+    margin-top: 25px;
+    margin-left: 80vw;
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 1.7vw;
+}
+#reset:hover{
+    color: white;
+    background-color: rgb(129, 32, 32);
+    font-weight: bold;
+}
+#result{
+    color: rgb(13, 128, 13);
+    font-size: 3vw;
+    font-family: 'Taviraj', serif;
+}
