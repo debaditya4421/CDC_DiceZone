@@ -1,4 +1,4 @@
-# SF-Assignment-2-Web-Dev-
+# DiceZone:
 
 Additionals :
 1. RESET Button Added(will appear after the start of the game)
